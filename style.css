@@ -3,11 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  margin: auto;
+
+  width: 75%;
+}
 .navbar-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 30px;
+  margin-top: 40px;
 }
 
 .navbar-container img {
@@ -57,6 +63,7 @@
   font-weight: 600;
   font-size: 3rem;
   line-height: 1.5;
+  margin-top: 3rem;
 }
 .heading-text span {
   color: #5955b3;
